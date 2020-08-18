@@ -1,11 +1,16 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
+import { Header } from './Components/header';
+import { Balance } from './Components/Balance'
 
 function App() {
   return (
     <div>
-     <h1>Hello world 1</h1>
+     <Header />
+     <div className="container">
+       <Balance />
+
+     </div>
     </div>
   );
 }
